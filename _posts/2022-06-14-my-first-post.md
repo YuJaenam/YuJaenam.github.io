@@ -1,0 +1,25 @@
+---
+title:  "[Jekyll] 블로그 포스팅하는 방법"
+excerpt: "md 파일에 마크다운 문법으로 작성하여 Github 원격 저장소에 업로드 해보자. 에디터는 Visual Studio code 사용! 로컬 서버에서 확인도 해보자. "
+
+categories:
+  - ETC
+tags:
+  - [Blog, jekyll, Github, Git]
+
+toc: true
+toc_sticky: true
+ 
+date: 2022-06-14
+last_modified_at: 2022-06-14
+---
+<div class="colorscripter-code" style="color:#f0f0f0;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto"><table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#272727;border-radius:4px;" cellspacing="0" cellpadding="0"><tr><td style="padding:6px;border-right:2px solid #4f4f4f"><div style="margin:0;padding:0;word-break:normal;text-align:right;color:#aaa;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="line-height:130%">1</div><div style="line-height:130%">2</div><div style="line-height:130%">3</div><div style="line-height:130%">4</div><div style="line-height:130%">5</div><div style="line-height:130%">6</div><div style="line-height:130%">7</div><div style="line-height:130%">8</div><div style="line-height:130%">9</div><div style="line-height:130%">10</div><div style="line-height:130%">11</div><div style="line-height:130%">12</div><div style="line-height:130%">13</div><div style="line-height:130%">14</div><div style="line-height:130%">15</div><div style="line-height:130%">16</div></div></td><td style="padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#f0f0f0;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#0086b3"></span><span style="color:#ff3399">-</span><span style="color:#0086b3"></span><span style="color:#ff3399">-</span><span style="color:#0086b3"></span><span style="color:#ff3399">-</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">title:&nbsp;<span style="color:#ffd500">"제목입력"</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">excerpt:&nbsp;<span style="color:#ffd500">"목록에서&nbsp;보여지는&nbsp;소개글"</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;</div><div style="padding:0 6px; white-space:pre; line-height:130%">categories:</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">-</span>&nbsp;board&nbsp;&nbsp;&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">/</span><span style="color:#0086b3"></span><span style="color:#ff3399">/</span>&nbsp;카테고리&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div><div style="padding:0 6px; white-space:pre; line-height:130%">tags:</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">-</span>&nbsp;[&nbsp;git,&nbsp;github,&nbsp;blog]&nbsp;&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">/</span><span style="color:#0086b3"></span><span style="color:#ff3399">/</span>태그입력</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;</div><div style="padding:0 6px; white-space:pre; line-height:130%">toc:&nbsp;<span style="color:#4be6fa">true</span>&nbsp;&nbsp;&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">/</span><span style="color:#0086b3"></span><span style="color:#ff3399">/</span>포스트&nbsp;제목으로&nbsp;목차&nbsp;사용을&nbsp;원하면&nbsp;<span style="color:#4be6fa">true</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;</div><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#4be6fa">date</span>:&nbsp;<span style="color:#c10aff">2022</span><span style="color:#ff3399">-</span><span style="color:#c10aff">06</span><span style="color:#ff3399">-</span><span style="color:#c10aff">14</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">last_modified_at:&nbsp;<span style="color:#c10aff">2022</span><span style="color:#ff3399">-</span><span style="color:#c10aff">06</span><span style="color:#ff3399">-</span><span style="color:#c10aff">14</span></div><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#0086b3"></span><span style="color:#ff3399">-</span><span style="color:#0086b3"></span><span style="color:#ff3399">-</span><span style="color:#0086b3"></span><span style="color:#ff3399">-</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;</div><div style="padding:0 6px; white-space:pre; line-height:130%">이후&nbsp;포스팅&nbsp;내용&nbsp;적기</div></div></td><td style="vertical-align:bottom;padding:0 2px 4px 0"><a href="http://colorscripter.com/info#e" target="_blank" style="text-decoration:none;color:white"><span style="font-size:9px;word-break:normal;background-color:#4f4f4f;color:white;border-radius:10px;padding:1px">cs</span></a></td></tr></table></div>
+
+<br>
+<p>'Markdown Source Code'를 적어주고 포스팅을 시작 하면 된다.
+<br>
+
+포스팅 파일 생성시 형식: 2022-06-14-my-first-post.md
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 확장자 (md) 주의  
+
+
