@@ -18,13 +18,13 @@ last_modified_at: 2022-06-21
     *.jar 및 Maven URL 준비 !
 </li>
 
-![](2022-06-21-10-56-37.png)
+![](./images/2022-06-21-13-58-24.png)
 
 <li>
     applicationContext.xml 파일 준비 (설정파일)  
 </li>
 
-![](2022-06-21-10-20-39.png) 
+![](./images/2022-06-21-13-59-08.png)
     
 <br>
     
@@ -33,7 +33,7 @@ last_modified_at: 2022-06-21
 </li>
 mybatis pdf 파일 3page<br>
 
-![](2022-06-21-10-24-05.png)
+![](./images/2022-06-21-13-59-34.png)
 
 <li>
    Mybatis 에 Spring 추가되며 다른점은 
