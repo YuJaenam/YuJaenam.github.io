@@ -15,7 +15,7 @@ last_modified_at: 2022-06-21
 <h1>Spring 과 Mybatis 연동하기</h1>
 <ol>
 <li>
-    *.jar 및 Maven URL 준비
+    *.jar 및 Maven URL 준비 !
 </li>
 
 ![](2022-06-21-10-56-37.png)
