@@ -18,7 +18,7 @@ last_modified_at: 2022-06-21
     *.jar 및 Maven URL 준비 !
 </li>
 
-![](/img/2022-06-21-13-58-24.png)
+{![](/img/2022-06-21-13-58-24.png)}
 
 <li>
     applicationContext.xml 파일 준비 (설정파일)  
