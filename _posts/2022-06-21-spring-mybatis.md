@@ -32,7 +32,7 @@ last_modified_at: 2022-06-21
 </li>
 mybatis pdf 파일 3page<br>
 
-<img src="img/2022-06-21-13-59-34.png"></img>
+<img src="/img/2022-06-21-13-59-34.png"></img>
 
 <li>
    Mybatis 에 Spring 추가되며 다른점은 
