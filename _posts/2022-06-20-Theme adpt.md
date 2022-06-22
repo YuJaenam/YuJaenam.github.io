@@ -22,4 +22,4 @@ category: ETC
 <li>아래 주소가 확인 되면 push 하여 마무리!</li></ol>
 
 ![올라가라](./images/2022-06-21-13-57-24.png)
-![이미지](/YuJaenam/YuJaenam.github.io/raw/main/_posts/imges/images/2022-06-22-09-42-55.png)
+![이미지굿](/YuJaenam/YuJaenam.github.io/raw/main/_posts/imges/images/2022-06-22-09-42-55.png)
