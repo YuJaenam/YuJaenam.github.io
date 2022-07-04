@@ -1,6 +1,6 @@
 ---
-title: "JavaScript 이미지 업로드시 창에 띄우기"
-excerpt: "JS 이미지 업로드시 창에 띄우기"
+title: "vscode tomcat 설치"
+excerpt: "vscode tomcat 설치"
  
 categories:
   - ETC       
